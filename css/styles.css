@@ -13,7 +13,7 @@ body {
 /* scene */
 .scene {
     width: 450px;
-    height: 550px;
+    height: 650px;
     /* space between card-scenes */
 
     /* set perspective   */
@@ -69,9 +69,10 @@ position: absolute;
 
 
 
-.card img {
-  width: 100%;
+img {
+  width: 50%;
   border-radius: 10px 10px 0px 0px;
+  align-items: center;
 }
 
 h1{
