@@ -8,3 +8,111 @@ body {
     justify-content: center;
     height: 100vh;
  }
+
+  /* scene */
+.scene {
+    width: 400px;
+    height: 550px;
+   
+
+    /* set perspective   */
+    perspective: 600px;
+}
+
+/* card */
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+
+    cursor: pointer;
+
+}
+
+/* face */
+.face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    /* hide back face   */
+    backface-visibility: hidden;
+
+}
+
+.front {
+    background: hsl(40, 100%, 99%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.back {
+    background: cornflowerblue;
+    /* flip it default   */
+    transform: rotateY(180deg);
+}
+
+/* flip card
+  * toggle with JS
+  */
+.flipped {
+    transform: rotateY(180deg);
+}
+
+
+/* Background Colors */
+
+.bg0 {
+    background-color: #8eaaaf;
+background-image: linear-gradient(0deg, #8eaaaf 0%, #ffdb96 46%, #ef892e 100%);
+  
+  }
+  
+  .bg1 {
+    background-color: #8eaaaf;
+background-image: linear-gradient(0deg, #8eaaaf 0%, #ffdb96 46%, #ef892e 100%);
+  }
+  
+  .bg2 {
+    background-color: #ef892e;
+background-image: linear-gradient(0deg, #ef892e 0%, #ffdb96 100%);
+  }
+
+  .bg3{
+    background-color: #ef892e;
+background-image: linear-gradient(0deg, #ef892e 0%, #ffdb96 100%);
+
+  }
+
+  .bg4{
+    background-color: #f9c394;
+background-image: linear-gradient(180deg, #f9c394 0%, #ffdb96 50%, #e6e8b8 100%);
+
+  }
+
+  .bg5{
+    background-color: #f9c394;
+background-image: linear-gradient(180deg, #f9c394 0%, #ffdb96 50%, #e6e8b8 100%);
+
+  }
+
+  .bg6{
+    background-color: #f9c394;
+background-image: linear-gradient(180deg, #f9c394 0%, #ffdb96 50%, #e6e8b8 100%);
+
+  }
+
+  .bg7{
+    background-color: #d9ebee;
+background-image: linear-gradient(180deg, #d9ebee 0%, #ffb323 100%);
+
+  }
+
+  .bg8{
+    background-color: #d9ebee;
+background-image: linear-gradient(180deg, #d9ebee 0%, #ffb323 100%);
+
+  }
+
+  
