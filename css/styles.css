@@ -10,6 +10,7 @@ body {
     font-family: Zodiak-Light;
 }
 
+
 /* scene */
 .scene {
     width: 450px;
@@ -43,6 +44,7 @@ position: absolute;
   
    /* hide back face   */
     backface-visibility: hidden;
+    
 }
 
 /* frontface */
@@ -51,6 +53,7 @@ position: absolute;
   border-radius: 10px;
   box-shadow: 0 10px 15px 1px rgba(68, 35, 5, 25%); 
   padding: 25px;
+  align-content: center;
 }
 
 /* backface */
