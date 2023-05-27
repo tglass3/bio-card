@@ -76,7 +76,8 @@ position: absolute;
 img {
   width: 50%;
   border-radius: 10px 10px 0px 0px;
-  align-items: center;
+ margin: 0 auto;
+ display: block;
 }
 
 h1{
