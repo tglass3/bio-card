@@ -53,7 +53,7 @@ position: absolute;
   border-radius: 10px;
   box-shadow: 0 10px 15px 1px rgba(68, 35, 5, 25%); 
   padding: 25px;
-  align-content: center;
+ 
 }
 
 /* backface */
@@ -84,6 +84,7 @@ h1{
   text-align: center;
   color: #0A5A5C;
   font-size: 32pt;
+  padding-top: -30px;
   padding-left: 10px;
   padding-right: 10px;
   font-family: 'Alpino-Bold';
@@ -92,7 +93,6 @@ h1{
 p {
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 10px;
   color: #515151;
   font-size: 14pt;
   font-family: 'Alpino-Regular';
@@ -103,6 +103,8 @@ a{
   color: #5B5E1C;
   font-size: 12pt;
   font-family: 'Alpino-Regular';
+  display:flexbox;
+
 }
 
 a:hover{
