@@ -31,5 +31,5 @@ document.querySelectorAll('.card').forEach( item => {
 })
 
 
-img.src.workPic = imgArray[randNumTwo];
+randImg.src = imgArray[randNumTwo];
 
