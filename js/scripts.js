@@ -2,12 +2,19 @@
 console.log('👍 JS Connected');
 
 const gradient = ['bg0', 'bg1', 'bg2', 'bg3', 'bg4', 'bg5', 'bg6', 'bg7', 'bg8'];
-const limit = gradient.length;
-const randNum = Math.floor(Math.random()*limit);
+const limitG = gradient.length;
+const randNumOne = Math.floor(Math.random()*limitG);
 
 const body = document.querySelector('body');
 
-body.classList.add(gradient[randNum]);
+const randImg = document.querySelector('.workPic');
+const imgArray = ['img/logo.jpg', 'img/postcard.jpg', 'img/poster-1.jpg', 'img/poster-2.jpg', 'img/product.jpg'];
+
+const numRange = imgArray.length;
+const randNumTwo = Math.floor(Math.random()*numRange);
+
+body.classList.add(gradient[randNumOne]);
+
 
 
 
@@ -22,3 +29,7 @@ document.querySelectorAll('.card').forEach( item => {
     })
   
 })
+
+
+img.src.workPic = imgArray[randNumTwo];
+
