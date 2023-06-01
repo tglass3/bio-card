@@ -14,7 +14,7 @@ body {
 /* scene */
 .scene {
     width: 450px;
-    height: 650px;
+    height: 640px;
     /* space between card-scenes */
 
     /* set perspective   */
@@ -73,9 +73,16 @@ position: absolute;
 
 
 
-img {
+.bioPic {
   width: 50%;
   border-radius: 10px 10px 0px 0px;
+ margin: 0 auto;
+ display: block;
+}
+
+.workPic{
+  width: 80%;
+  padding-top:50px;
  margin: 0 auto;
  display: block;
 }
