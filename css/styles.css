@@ -1,5 +1,7 @@
 /* My Styles */
 
+/* the props */
+@import "https://unpkg.com/open-props";
 
 /* Vertical and Horizontal aligment of container */
 body {
