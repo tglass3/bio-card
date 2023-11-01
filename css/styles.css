@@ -44,6 +44,10 @@ body {
   
 }
 
+.face:hover{
+  animation: var(--scale-down);
+}
+
 /* face */
 .face {
 position: absolute;
@@ -57,7 +61,7 @@ position: absolute;
 
 /* frontface */
 .front {
-  background: #fffbf5;
+  background-color: var(--brown-0);
   border-radius: 10px;
   box-shadow: 0 10px 15px 1px rgba(68, 35, 5, 25%); 
   padding: 25px;
@@ -68,7 +72,7 @@ position: absolute;
 /* backface */
 .back {
   transform: rotateY(-180deg);
-  background: #fffbf5;
+  background-color: var(--brown-0);
   border-radius: 10px;
   box-shadow: 0px 10px 15px 1px rgba(68, 35, 5, 25%);
   padding: 25px;
@@ -98,11 +102,12 @@ position: absolute;
 
 h1{
   text-align: center;
-  color: #0A5A5C;
-  font-size: 32pt;
-  padding-top: -30px;
+  color: var(--brown-9);
+  font-size: var(--font-size-7);
+  padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 30px;
   font-family: 'Alpino-Bold';
 }
 
@@ -110,14 +115,14 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   color: #515151;
-  font-size: 14pt;
+  font-size: var(--font-size-2);
   font-family: 'Alpino-Regular';
 }
 
 a{
   padding-left: 15px;
-  color: #5B5E1C;
-  font-size: 12pt;
+  color: var(--camo-5);
+  font-size: var(--font-size-3);
   font-family: 'Alpino-Regular';
   margin-left: auto;
 margin-right: auto;
