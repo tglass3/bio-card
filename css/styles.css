@@ -3,9 +3,6 @@
 /* the props */
 @import "https://unpkg.com/open-props";
 
-@import "https://unpkg.com/open-props/normalize.min.css";
-@import "https://unpkg.com/open-props/buttons.min.css";
-
 @import "https://unpkg.com/open-props/masks.edges.min.css";
 @import "https://unpkg.com/open-props/masks.corner-cuts.min.css";
 
