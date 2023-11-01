@@ -3,8 +3,8 @@
 /* the props */
 @import "https://unpkg.com/open-props";
 
-@import "https://unpkg.com/open-props/masks.edges.min.css";
-@import "https://unpkg.com/open-props/masks.corner-cuts.min.css";
+@import "https://unpkg.com/open-props/normalize.min.css";
+@import "https://unpkg.com/open-props/buttons.min.css";
 
 /* Vertical and Horizontal aligment of container */
 body {
@@ -20,7 +20,7 @@ body {
 /* scene */
 .scene {
     width: 450px;
-    height: 675px;
+    height: 700px;
     /* space between card-scenes */
 
     /* set perspective   */
@@ -39,9 +39,14 @@ body {
 
     /* preserve child 3d   */
     transform-style: preserve-3d;
-  
+
 }
 
+.card:hover {
+  animation: var(--animation-scale-up);
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
 /* face */
 .face {
 position: absolute;
@@ -82,7 +87,7 @@ position: absolute;
 
 .bioPic {
   width: 50%;
-  padding-top: 2px;
+  padding-top: 10px;
  margin: 0 auto;
  display: block;
 }
